@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
+import * as data from '../data/problems.json';
 
-const problems = [
-    {"Day": 1, "Title": "Haha", "Year": "2020"},
-    {"Day": 2, "Title": "Hoho", "Year": "2021"},
-    {"Day": 2, "Title": "Hihi", "Year": "2021"},
-];
+const problems = data.default;
 
 export default function Problems() {
     const [filterInput, setFilterInput] = useState("");
 
-    const filtered = problems.filter(problem => problem.Title.toLowerCase().includes(filterInput));
+    const filtered = problems.filter(problem => { 
+        return problem.Title.toLowerCase().includes(filterInput.toLowerCase());
+    });
 
     return <>
         <label>Filter: <input type="text" value={filterInput} onChange={(x) => setFilterInput(x.target.value)}/></label>
