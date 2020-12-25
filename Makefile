@@ -2,6 +2,7 @@ SHELL := /bin/bash
 
 .PHONY: build
 build:
+	make version
 	yarn build
 	yarn export
 
