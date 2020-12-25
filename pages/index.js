@@ -19,8 +19,7 @@ export default function Home() {
             List of Advent of Code problems, filterable by title, year, topics etc.
         </p>
 
-      // { "TODO: List of topics" }
-
+      {/* "TODO: List of topics" } */}
       <Problems/>
       </main>
 
