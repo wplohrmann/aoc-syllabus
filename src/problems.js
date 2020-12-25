@@ -9,8 +9,10 @@ const problems = [
 export default function Problems() {
     const [filterInput, setFilterInput] = useState("");
 
+    const filtered = problems.filter(problem => problem.Title.toLowerCase().includes(filterInput));
+
     return <>
-        <label>Filter<input type="text" value={filterInput} onChange={(x) => setFilterInput(x.target.value)}/></label>
+        <label>Filter: <input type="text" value={filterInput} onChange={(x) => setFilterInput(x.target.value)}/></label>
         <table>
         <tbody>
         <tr>
@@ -18,7 +20,7 @@ export default function Problems() {
             <th>Year</th>
             <th>Day</th>
         </tr>
-        {problems.filter(problem => {console.log(problem, filterInput); return problem.Title.includes(filterInput);}).map(problem => (
+        {filtered.map(problem => (
             <tr key={problem.Title}>
                 <td>{problem.Title}</td>
                 <td>{problem.Year}</td>
@@ -27,5 +29,6 @@ export default function Problems() {
         ))}
         </tbody>
         </table>
+        {filtered.length === 0 ? "No results" : ""}
     </>
 }
