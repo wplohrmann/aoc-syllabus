@@ -1,0 +1,152 @@
+Title                                      Day    Year    Solves (both stars)    Solves (one star)    First solve (both stars)    100th solve (one star)
+---------------------------------------  -----  ------  ---------------------  -------------------  --------------------------  ------------------------
+Not Quite Lisp                               1    2015                  49838                49838                         655                     11176
+I Was Told There Would Be No Math            2    2015                  34964                34964                         327                      2624
+Perfectly Spherical Houses in a Vacuum       3    2015                  29027                29027                         272                      1678
+The Ideal Stocking Stuffer                   4    2015                  25453                25453                         129                       985
+Doesn't He Have Intern-Elves For This?       5    2015                  21662                21662                         119                      1665
+Probably a Fire Hazard                       6    2015                  19338                19338                         283                      1581
+Some Assembly Required                       7    2015                  13399                13399                         705                      3732
+Matchsticks                                  8    2015                  12384                12384                         274                      1393
+All in a Single Night                        9    2015                  11021                11021                         289                      1883
+Elves Look, Elves Say                       10    2015                  11763                11763                         150                       727
+Corporate Policy                            11    2015                  10255                10255                         296                      1464
+JSAbacusFramework.io                        12    2015                   9011                 9011                         234                      1541
+Knights of the Dinner Table                 13    2015                   8585                 8585                         502                      1459
+Reindeer Olympics                           14    2015                   8750                 8750                         438                      1564
+Science for Hungry People                   15    2015                   7505                 7505                         408                      1938
+Aunt Sue                                    16    2015                   7732                 7732                         378                      1095
+No Such Thing as Too Much                   17    2015                   7146                 7146                         106                      1049
+Like a GIF For Your Yard                    18    2015                   6786                 6786                         334                      1781
+Medicine for Rudolph                        19    2015                   4859                 4859                        1075                     13931
+Infinite Elves and Infinite Houses          20    2015                   5514                 5514                         361                      3837
+RPG Simulator 20XX                          21    2015                   5180                 5180                         699                      2743
+Wizard Simulator 20XX                       22    2015                   3806                 3806                        1316                     10985
+Opening the Turing Lock                     23    2015                   4769                 4769                         380                      1766
+It Hangs in the Balance                     24    2015                   3969                 3969                         294                      3362
+Let It Snow                                 25    2015                   3400                 3400                         257                       947
+No Time for a Taxicab                        1    2016                  17957                17957                         421                      2329
+Bathroom Security                            2    2016                  16020                16020                         349                      1150
+Squares With Three Sides                     3    2016                  14803                14803                         166                       727
+Security Through Obscurity                   4    2016                  12495                12495                         595                      1604
+How About a Nice Game of Chess?              5    2016                  11693                11693                         417                      1052
+Signals and Noise                            6    2016                  12067                12067                         104                       376
+Internet Protocol Version 7                  7    2016                   9592                 9592                         475                      1593
+Two-Factor Authentication                    8    2016                   9127                 9127                         415                      1375
+Explosives in Cyberspace                     9    2016                   7184                 7184                         540                      1953
+Balance Bots                                10    2016                   6649                 6649                         529                      2197
+Radioisotope Thermoelectric Generators      11    2016                   3811                 3811                         520                      9855
+Leonardo's Monorail                         12    2016                   5786                 5786                         394                      1090
+A Maze of Twisty Little Cubicles            13    2016                   4679                 4679                         351                      1814
+One-Time Pad                                14    2016                   4620                 4620                         728                      2530
+Timing is Everything                        15    2016                   4651                 4651                         266                       762
+Dragon Checksum                             16    2016                   4642                 4642                         231                       810
+Two Steps Forward                           17    2016                   3942                 3942                         502                      1755
+Like a Rogue                                18    2016                   4370                 4370                         306                       789
+An Elephant Named Joseph                    19    2016                   3722                 3722                         525                      4807
+Firewall Rules                              20    2016                   4095                 4095                         298                      1264
+Scrambled Letters and Hash                  21    2016                   3620                 3620                         823                      3176
+Grid Computing                              22    2016                   2750                 2750                         890                      5295
+Safe Cracking                               23    2016                   2987                 2987                        1019                      3339
+Air Duct Spelunking                         24    2016                   2683                 2683                         346                      3530
+Clock Signal                                25    2016                   2300                 2300                         236                      1487
+Inverse Captcha                              1    2017                  47301                47301                          76                       368
+Corruption Checksum                          2    2017                  39819                39819                          75                       373
+Spiral Memory                                3    2017                  24143                24143                         242                      1399
+High-Entropy Passphrases                     4    2017                  27878                27878                          70                       220
+A Maze of Twisty Trampolines, All Alike      5    2017                  25921                25921                         108                       286
+Memory Reallocation                          6    2017                  22755                22755                         178                       570
+Recursive Circus                             7    2017                  16546                16546                         576                      1521
+I Heard You Like Registers                   8    2017                  18059                18059                         178                       502
+Stream Processing                            9    2017                  15831                15831                         262                       697
+Knot Hash                                   10    2017                  13142                13142                         351                      1524
+Hex Ed                                      11    2017                  12963                12963                         190                       703
+Digital Plumber                             12    2017                  12636                12636                         133                       546
+Packet Scanners                             13    2017                  11193                11193                         340                      1306
+Disk Defragmentation                        14    2017                   9486                 9486                         297                      1506
+Dueling Generators                          15    2017                  10585                10585                         136                       572
+Permutation Promenade                       16    2017                   9724                 9724                         328                      1597
+Spinlock                                    17    2017                   9368                 9368                         308                       951
+Duet                                        18    2017                   7813                 7813                         584                      2462
+A Series of Tubes                           19    2017                   8376                 8376                         293                      1084
+Particle Swarm                              20    2017                   7457                 7457                         430                      1293
+Fractal Art                                 21    2017                   6154                 6154                         609                      2691
+Sporifica Virus                             22    2017                   6458                 6458                         362                      1229
+Coprocessor Conflagration                   23    2017                   5694                 5694                        1143                      3281
+Electromagnetic Moat                        24    2017                   5761                 5761                         362                      1262
+The Halting Problem                         25    2017                   5133                 5133                         158                       676
+Chronal Calibration                          1    2018                  70042                70042                         108                       328
+Inventory Management System                  2    2018                  55225                55225                         142                       465
+No Matter How You Slice It                   3    2018                  42406                42406                         209                       617
+Repose Record                                4    2018                  30859                30859                         372                      1297
+Alchemical Reduction                         5    2018                  31375                31375                         218                       620
+Chronal Coordinates                          6    2018                  21701                21701                         503                      1612
+The Sum of Its Parts                         7    2018                  17899                17899                         567                      1852
+Memory Maneuver                              8    2018                  17534                17534                         225                       730
+Marble Mania                                 9    2018                  15237                15237                         496                      1753
+The Stars Align                             10    2018                  15582                15582                         336                      1009
+Chronal Charge                              11    2018                  14497                14497                         380                       972
+Subterranean Sustainability                 12    2018                  12128                12128                         543                      1662
+Mine Cart Madness                           13    2018                  10375                10375                         801                      2665
+Chocolate Charts                            14    2018                  10534                10534                         362                      1179
+Beverage Bandits                            15    2018                   5876                 5876                        2164                      8597
+Chronal Classification                      16    2018                   7979                 7979                         671                      2343
+Reservoir Research                          17    2018                   5632                 5632                        1996                      5047
+Settlers of The North Pole                  18    2018                   6986                 6986                         516                      1319
+Go With The Flow                            19    2018                   5333                 5333                         799                      3666
+A Regular Map                               20    2018                   4575                 4575                        1059                      3570
+Chronal Conversion                          21    2018                   4154                 4154                         448                      3661
+Mode Maze                                   22    2018                   3955                 3955                         762                      3756
+Experimental Emergency Teleportation        23    2018                   3506                 3506                         813                      6041
+Immune System Simulator 20XX                24    2018                   3512                 3512                        1702                      5230
+Four-Dimensional Adventure                  25    2018                   2919                 2919                         136                       806
+The Tyranny of the Rocket Equation           1    2019                 100785               100785                          99                       252
+1202 Program Alarm                           2    2019                  75974                75974                         260                       642
+Crossed Wires                                3    2019                  48703                48703                         307                       823
+Secure Container                             4    2019                  50842                50842                         155                       385
+Sunny with a Chance of Asteroids             5    2019                  35513                35513                         468                      1351
+Universal Orbit Map                          6    2019                  32616                32616                         268                       711
+Amplification Circuit                        7    2019                  22495                22495                         712                      1833
+Space Image Format                           8    2019                  27385                27385                         236                       620
+Sensor Boost                                 9    2019                  20905                20905                         294                       886
+Monitoring Station                          10    2019                  17094                17094                         822                      2566
+Space Police                                11    2019                  15750                15750                         292                       957
+The N-Body Problem                          12    2019                  14024                14024                         817                      2197
+Care Package                                13    2019                  13033                13033                         480                      1226
+Space Stoichiometry                         14    2019                  10911                10911                         573                      2538
+Oxygen System                               15    2019                   9402                 9402                        1004                      2330
+Flawed Frequency Transmission               16    2019                   8000                 8000                        1183                      4100
+Set and Forget                              17    2019                   7435                 7435                         885                      2713
+Many-Worlds Interpretation                  18    2019                   4368                 4368                        1354                      7046
+Tractor Beam                                19    2019                   6289                 6289                         524                      1679
+Donut Maze                                  20    2019                   4587                 4587                         964                      3226
+Springdroid Adventure                       21    2019                   4738                 4738                         744                      2010
+Slam Shuffle                                22    2019                   3791                 3791                         950                      7426
+Category Six                                23    2019                   4540                 4540                         431                      1253
+Planet of Discord                           24    2019                   4303                 4303                        1004                      2538
+Cryostasis                                  25    2019                   3079                 3079                         706                      2101
+Report Repair                                1    2020                 145572               145572                         431                       465
+Password Philosophy                          2    2020                 123740               123740                         107                       272
+Toboggan Trajectory                          3    2020                 104011               104011                         153                       296
+Passport Processing                          4    2020                  86068                86068                         384                       775
+Binary Boarding                              5    2020                  81743                81743                         175                       349
+Custom Customs                               6    2020                  76835                76835                          87                       275
+Handy Haversacks                             7    2020                  58722                58722                         345                       824
+Handheld Halting                             8    2020                  59080                59080                         216                       468
+Encoding Error                               9    2020                  57487                57487                         174                       386
+Adapter Array                               10    2020                  45355                45355                         139                       522
+Seating System                              11    2020                  41296                41296                         267                       846
+Rain Risk                                   12    2020                  40302                40302                         268                       658
+Shuttle Search                              13    2020                  32197                32197                         324                       974
+Docking Data                                14    2020                  31077                31077                         376                       970
+Rambunctious Recitation                     15    2020                  31703                31703                         259                       564
+Ticket Translation                          16    2020                  27156                27156                         567                      1263
+Conway Cubes                                17    2020                  23738                23738                         250                       796
+Operation Order                             18    2020                  22844                22844                         191                       849
+Monster Messages                            19    2020                  16259                16259                         574                      1720
+Jurassic Jigsaw                             20    2020                  11414                11414                        1530                      4427
+Allergen Assessment                         21    2020                  14695                14695                         404                       965
+Crab Combat                                 22    2020                  14167                14167                         566                      1253
+Crab Cups                                   23    2020                  11508                11508                         831                      2386
+Lobby Layout                                24    2020                  11708                11708                         342                       925
+Combo Breaker                               25    2020                   8180                 8180                         122                       451
