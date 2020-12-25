@@ -12,12 +12,8 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hello, world!
+          AoC Syllabus
         </h1>
-
-        <p className={styles.description}>
-            List of Advent of Code problems, filterable by title, year, topics etc.
-        </p>
 
       {/* "TODO: List of topics" } */}
       <Problems/>

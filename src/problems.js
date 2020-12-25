@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import styles from '../styles/Home.module.css'
 import * as data from '../data/problems.json';
 
 const problems = data.default;
@@ -11,6 +12,9 @@ export default function Problems() {
     });
 
     return <>
+        <p className={styles.description}>
+            List of Advent of Code problems, filterable by title, year, topics etc.
+        </p>
         <label>Filter: <input type="text" value={filterInput} onChange={(x) => setFilterInput(x.target.value)}/></label>
         <table>
         <tbody>
