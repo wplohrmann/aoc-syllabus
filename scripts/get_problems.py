@@ -18,7 +18,7 @@ def handle_stats(soup):
     both = []
     one = []
     for name, stats in [("stats-both", both), ("stats-firstonly", one)]:
-        tags = soup.findAll("span", attrs={"class": "stats-both"})
+        tags = soup.findAll("span", attrs={"class": name})
         for tag in tags:
             try:
                 stats.append(int(next(tag.children)))
