@@ -1,3 +1,4 @@
 module.exports = {
-    assetPrefix: '/aoc-syllabus/'
+    assetPrefix: '/aoc-syllabus/',
+    basePath: '/aoc-syllabus'
 }
