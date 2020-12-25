@@ -5,6 +5,7 @@ build:
 	make version
 	yarn build
 	yarn export
+	touch docs/.nojekyll
 
 .PHONY: run
 run:
