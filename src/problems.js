@@ -9,9 +9,13 @@ export default function Problems() {
     const [sortKey, setSortKey] = useState("Year");
     const [ascending, setAscending] = useState(true);
 
-    const filtered = problems.filter(problem => { 
+    const filtered = problems.filter(problem => {
         return problem.Title.toLowerCase().includes(filterInput.toLowerCase());
-    }).sort((p1, p2) => (ascending ? 1 : -1) * (p1[sortKey] - p2[sortKey]));
+    }).sort((p1, p2) => {
+        const cmp = p1[sortKey] - p2[sortKey];
+        const cmp2 = p1[sortKey].localeCompare(p2[sortKey]);
+        return (ascending ? 1 : -1) * (!isNaN(cmp) ? cmp : (2 * p1[sortKey].localeCompare(p2[sortKey]) - 1));
+    });
 
     return <>
         <p className={styles.description}>
