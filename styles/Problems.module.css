@@ -1,31 +1,28 @@
-.description {
-    line-height: 1.5;
-    font-size: 1.5rem;
+.scrollable {
+    overflow:scroll;
+    flex-shrink:2;
 }
 
-.button {
+.button, .selected {
+    background:none;
+    color: #ffff66;
+    font-size:large;
     outline:none;
     border:none;
-    background:none;
-    font-weight:bold;
+    box-shadow:none;
 }
 
 .selected {
-    outline:black;
-    border:none;
-    background:none;
-    font-weight:bold;
+    background:rgba(119,119,165,.5);
+    border-radius: 3px;
 }
 
-.element:hover {
-    background:gray;
-}
-.row:hover {
-    background:lightgray;
+.highlightable:hover {
+    background:rgba(119,119,165,.2);
 }
 
-.scrollable {
-    align:center;
-    height:500px;
-    overflow:scroll;
+.problemLink {
+    display:block;
+    text-decoration:none;
+    color: inherit;
 }

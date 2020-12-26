@@ -2,21 +2,18 @@ html,
 body {
   padding: 0;
   margin: 0;
+  background:#0f0f23;
+  color:#cccccc;
+  display:flex;
+  height:100%;
+  justify-content:center;
+
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
 .arrow {
-  border: solid black;
+  border: solid #cccccc;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
@@ -31,4 +28,3 @@ a {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
 }
-
