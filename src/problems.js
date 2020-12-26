@@ -22,6 +22,7 @@ export default function Problems() {
             List of Advent of Code problems, filterable by title, year, topics etc.
         </p>
         <label>Filter: <input type="text" value={filterInput} onChange={(x) => setFilterInput(x.target.value)}/></label>
+        <div className={styles.scrollable}>
         <table>
         <tbody>
         <tr>
@@ -36,11 +37,12 @@ export default function Problems() {
         </tr>
         {filtered.map(problem => (
             <tr key={problem.Title} className={styles.row}>
-                {Object.keys(problem).map(key => <td>{key=="Title" ? <a href={`https://adventofcode.com/${problem["Year"]}/day/${problem["Day"]}`}>{problem[key]}</a> : problem[key]}</td>)}
+                {Object.keys(problem).map(key => <td className={styles.element}>{key=="Title" ? <a href={`https://adventofcode.com/${problem["Year"]}/day/${problem["Day"]}`}>{problem[key]}</a> : problem[key]}</td>)}
             </tr>
         ))}
         </tbody>
         </table>
+        </div>
         {filtered.length === 0 ? "No results" : ""}
     </>
 }

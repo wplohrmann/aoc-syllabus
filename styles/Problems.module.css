@@ -17,6 +17,15 @@
     font-weight:bold;
 }
 
+.element:hover {
+    background:gray;
+}
 .row:hover {
     background:lightgray;
+}
+
+.scrollable {
+    align:center;
+    height:500px;
+    overflow:scroll;
 }
