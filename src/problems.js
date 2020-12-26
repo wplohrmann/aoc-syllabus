@@ -35,8 +35,8 @@ export default function Problems() {
             }}>{key} {sortKey===key ? (ascending ? <i className="down arrow"/> : <i className="up arrow"/>) : ""}</button></th>)}
         </tr>
         {filtered.map(problem => (
-            <tr key={problem.Title}>
-                {Object.keys(problem).map(key => <td>{problem[key]}</td>)}
+            <tr key={problem.Title} className={styles.row}>
+                {Object.keys(problem).map(key => <td>{key=="Title" ? <a href={`https://adventofcode.com/${problem["Year"]}/day/${problem["Day"]}`}>{problem[key]}</a> : problem[key]}</td>)}
             </tr>
         ))}
         </tbody>

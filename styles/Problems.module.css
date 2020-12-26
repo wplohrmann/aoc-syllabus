@@ -16,3 +16,7 @@
     background:none;
     font-weight:bold;
 }
+
+.row:hover {
+    background:lightgray;
+}
