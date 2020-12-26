@@ -18,7 +18,7 @@ export default function Problems() {
 
     return <>
         <p className={styles.description}>
-            List of Advent of Code problems, filterable by title, year, topics etc.
+            List of Advent of Code problems, filterable by title and sortable by each column
         </p>
         <label>Filter: <input type="text" value={filterInput} onChange={(x) => setFilterInput(x.target.value)}/></label>
         <div className={styles.scrollable}>
