@@ -19,15 +19,11 @@ export default function Problems() {
         <table>
         <tbody>
         <tr>
-            <th>Title</th>
-            <th>Year</th>
-            <th>Day</th>
+            {Object.keys(problems[0]).map(key => <th>{key}</th>)}
         </tr>
         {filtered.map(problem => (
             <tr key={problem.Title}>
-                <td>{problem.Title}</td>
-                <td>{problem.Year}</td>
-                <td>{problem.Day}</td>
+                {Object.keys(problem).map(key => <td>{problem[key]}</td>)}
             </tr>
         ))}
         </tbody>
