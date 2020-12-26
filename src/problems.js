@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Problems.module.css';
 import * as data from '../data/problems.json';
 
 const problems = data.default;
@@ -25,14 +25,14 @@ export default function Problems() {
         <table>
         <tbody>
         <tr>
-            {Object.keys(problems[0]).map(key => <th key={key}><button onClick={() => {
+            {Object.keys(problems[0]).map(key => <th key={key}><button className={sortKey===key ? styles.selected : styles.button} onClick={() => {
                 if (sortKey == key) {
                     setAscending(!ascending);
                 } else {
                     setAscending(true);
                 }
                 return setSortKey(key);
-            }}>{key}</button></th>)}
+            }}>{key} {sortKey===key ? (ascending ? <i className="down arrow"/> : <i className="up arrow"/>) : ""}</button></th>)}
         </tr>
         {filtered.map(problem => (
             <tr key={problem.Title}>
