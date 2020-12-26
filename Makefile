@@ -6,6 +6,8 @@ build:
 	yarn build
 	yarn export
 	touch docs/.nojekyll
+	git add docs/
+	git commit -m "Build"
 
 .PHONY: run
 run:
