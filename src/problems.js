@@ -25,7 +25,7 @@ export default function Problems() {
         <table>
         <tbody>
         <tr>
-            {Object.keys(problems[0]).map(key => <th key={key} className={styles.highlightable} className={sortKey===key ? styles.selected : styles.button} onClick={() => {
+            {Object.keys(problems[0]).map(key => <th key={key} className={styles.highlightable + " " + (sortKey===key ? styles.selected : styles.button)} onClick={() => {
                 if (sortKey == key) {
                     setAscending(!ascending);
                 } else {
