@@ -1,0 +1,1 @@
+_N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[7],{"/uZn":function(n,u,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/version",function(){return o("OBWL")}])},OBWL:function(n,u,o){"use strict";function _(){return" 47a2e2f "}o.r(u),o.d(u,"default",(function(){return _}))}},[["/uZn",0]]]);
