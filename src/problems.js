@@ -17,12 +17,11 @@ export default function Problems() {
     });
 
     return <>
-        <p className={styles.description}>
+        <p>
             List of Advent of Code problems, filterable by title and sortable by each column
         </p>
         <label>Filter: <input type="text" value={filterInput} onChange={(x) => setFilterInput(x.target.value)}/></label>
-        <div className={styles.scrollable}>
-        <table>
+        <table className={styles.table}>
         <tbody>
         <tr>
             {Object.keys(problems[0]).map(key => <th key={key} className={styles.highlightable + " " + (sortKey===key ? styles.selected : styles.button)} onClick={() => {
@@ -45,7 +44,6 @@ export default function Problems() {
         ))}
         </tbody>
         </table>
-        </div>
         {filtered.length === 0 ? "No results" : ""}
     </>
 }

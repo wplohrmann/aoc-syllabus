@@ -1,6 +1,6 @@
-.scrollable {
+.table {
+    display:block;
     overflow:scroll;
-    flex-shrink:2;
 }
 
 .button, .selected {
