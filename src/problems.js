@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import styles from '../styles/Problems.module.css';
 import * as data from '../data/problems.json';
+import Table from '../components/table'
 
 const problems = data.default;
 
@@ -21,29 +21,19 @@ export default function Problems() {
             List of Advent of Code problems, filterable by title and sortable by each column
         </p>
         <label>Filter: <input type="text" value={filterInput} onChange={(x) => setFilterInput(x.target.value)}/></label>
-        <table className={styles.table}>
-        <tbody>
-        <tr>
-            {Object.keys(problems[0]).map(key => <th key={key} className={styles.highlightable + " " + (sortKey===key ? styles.selected : styles.button)} onClick={() => {
+        <Table 
+            headers={Object.keys(problems[0])}
+            rowLink={problem => `https://adventofcode.com/${problem["Year"]}/day/${problem["Day"]}`}
+            onHeaderClick={(key) => {
                 if (sortKey == key) {
                     setAscending(!ascending);
                 } else {
                     setAscending(true);
                 }
                 return setSortKey(key);
-            }}>{key} {sortKey===key ? (ascending ? <i className="down arrow"/> : <i className="up arrow"/>) : ""}</th>)}
-        </tr>
-        {filtered.map(problem => (
-            <tr key={problem.Title} className={styles.highlightable}>
-                {Object.keys(problem).map(key => <td className={styles.element}>
-                    <a className={styles.problemLink} href={`https://adventofcode.com/${problem["Year"]}/day/${problem["Day"]}`}>
-                        {problem[key]}
-                    </a>
-                </td>)}
-            </tr>
-        ))}
-        </tbody>
-        </table>
-        {filtered.length === 0 ? "No results" : ""}
+            }}
+            rows={filtered}
+        />
+               
     </>
 }
