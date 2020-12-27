@@ -1,16 +1,17 @@
 import styles from '../styles/Table.module.css';
+import classNames from 'classnames/bind'
 
 export default function Table(props) {
         return <>
-        <table className={styles.table}>
+        <table>
             <thead><tr>
                     {props.headers.map(key =>
-                        <th key={key} className={styles.highlightable + " " + (sortKey===key ? styles.selected : styles.button)} onClick={props.onHeaderClick}>
-                            {key} {sortKey===key ? (ascending ? <i className="down arrow"/> : <i className="up arrow"/>) : ""}
+                        <th key={key} style={{"textAlign":"left"}} className={classNames(styles.highlightable, (props.sortKey===key ? styles.selected : styles.button))} onClick={props.onHeaderClick}>
+                            {props.headerElement(key)}
                         </th>
                     )}
             </tr></thead>
-            <tbody>
+            <tbody style={{"height": "50vh", overflow:"scroll", "width":"100%"}}>
                 {props.rows.map(problem => (
                     <tr key={problem.Title} className={styles.highlightable}>
                         {Object.keys(problem).map(key => <td className={styles.element}>
@@ -22,6 +23,6 @@ export default function Table(props) {
                 ))}
             </tbody>
         </table>
-        {filtered.length === 0 ? "No results" : ""}
+        {props.rows.length === 0 ? "No results" : ""}
         </>
 }

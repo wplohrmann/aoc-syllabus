@@ -1,11 +1,11 @@
 const style = {
     "display": "flex",
-    "flex-direction":"column",
-    "align-items":"center",
+    "flexDirection":"column",
+    "alignItems":"center",
 };
 const linkStyle = {
-    "font-size":"x-large",
-    "text-decoration":"none",
+    "fontSize":"x-large",
+    "textDecoration":"none",
     "color":"#cccccc"
 };
 

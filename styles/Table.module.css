@@ -1,6 +1,13 @@
 .table {
     display:block;
     overflow:scroll;
+    flex:1;
+    /* height:50%; */
+}
+.sticky {
+    position:fixed;
+    top:0;
+    width:100%;
 }
 
 .button, .selected {

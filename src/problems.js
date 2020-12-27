@@ -33,6 +33,7 @@ export default function Problems() {
                 return setSortKey(key);
             }}
             rows={filtered}
+            headerElement={key => <>{key} {sortKey===key ? (ascending ? <i className="down arrow"/> : <i className="up arrow"/>) : ""}</>}
         />
                
     </>
