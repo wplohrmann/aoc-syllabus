@@ -2,7 +2,6 @@
     display:block;
     overflow:scroll;
     flex:1;
-    /* height:50%; */
 }
 .sticky {
     position:fixed;

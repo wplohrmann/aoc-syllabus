@@ -11,7 +11,7 @@ export default function Table(props) {
                         </th>
                     )}
             </tr></thead>
-            <tbody style={{"height": "50vh", overflow:"scroll", "width":"100%"}}>
+            <tbody>
                 {props.rows.map(problem => (
                     <tr key={problem.Title} className={styles.highlightable}>
                         {Object.keys(problem).map(key => <td className={styles.element}>
