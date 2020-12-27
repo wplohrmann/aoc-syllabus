@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Problems from '../src/problems'
+import Title from '../components/title'
+import Footer from '../components/footer'
 
 export default function Home() {
   return <>
@@ -10,14 +12,12 @@ export default function Home() {
     </Head>
 
     <main className={styles.main}>
-        <h1 className={styles["shiny-green"]}>AoC Syllabus</h1>
+        <Title text="AoC Syllabus"/>
         <Problems/>
 
       {/* "TODO: List of topics" } */}
     </main>
+    <Footer url="https://nextjs.org" text="Powered by Next.js" />
 
-    <footer className={styles.footer}>
-        <a href="https://nextjs.org/">Powered by Next.js</a>
-    </footer>
   </>
 }
