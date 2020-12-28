@@ -1,0 +1,7 @@
+.title {
+    text-align:center;
+    color:#00cc00;
+    font-weight:bold;
+    text-shadow:0 0 3px #00cc00, 0 0 5px #00cc00;
+    flex-grow:0;
+}

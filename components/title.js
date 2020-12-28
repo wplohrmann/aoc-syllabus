@@ -1,3 +1,5 @@
+import styles from '../styles/Title.module.css'
+
 export default function Title(props) {
-    return <h1 style={{color:"#00cc00", "fontWeight":"bold", "textShadow":"0 0 3px #00cc00, 0 0 5px #00cc00"}}>{props.text}</h1>;
+    return <h1 className={styles.title}>{props.text}</h1>;
 }

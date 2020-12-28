@@ -1,8 +1,9 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+
 import Problems from '../src/problems'
 import Title from '../components/title'
 import Footer from '../components/footer'
+import Main from '../components/main'
 
 export default function Home() {
   return <>
@@ -11,13 +12,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <main className={styles.main}>
-        <Title text="AoC Syllabus"/>
+    <Title text="AoC Syllabus"/>
+    <Main>
         <Problems/>
-
-      {/* "TODO: List of topics" } */}
-    </main>
+    </Main>
     <Footer url="https://nextjs.org" text="Powered by Next.js" />
-
   </>
 }

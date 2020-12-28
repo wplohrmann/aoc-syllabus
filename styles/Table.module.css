@@ -1,12 +1,8 @@
 .table {
     display:block;
-    overflow:scroll;
+    /* overflow:scroll; */
+    height:100%;
     flex:1;
-}
-.sticky {
-    position:fixed;
-    top:0;
-    width:100%;
 }
 
 .button, .selected {

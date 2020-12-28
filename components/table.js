@@ -3,7 +3,7 @@ import classNames from 'classnames/bind'
 
 export default function Table(props) {
         return <>
-        <table>
+        <table className={styles.table}>
             <thead><tr>
                     {props.headers.map(key =>
                         <th key={key} style={{"textAlign":"left"}} className={classNames(styles.highlightable, (props.sortKey===key ? styles.selected : styles.button))} onClick={props.onHeaderClick}>
@@ -11,7 +11,7 @@ export default function Table(props) {
                         </th>
                     )}
             </tr></thead>
-            <tbody>
+            <tbody style={{overflow:"scroll", height:"50vh"}}>
                 {props.rows.map(problem => (
                     <tr key={problem.Title} className={styles.highlightable}>
                         {Object.keys(problem).map(key => <td className={styles.element}>

@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.link {
+    fontSize:x-large;
+    textDecoration:none;
+    color:#cccccc;
+}
