@@ -1,7 +1,8 @@
 .main {
     display:flex;
     flex-direction:column;
+    justify-content:center;
     flex-grow:1;
-    overflow:hidden;
+    overflow-y:hidden;
     height:100%;
 }

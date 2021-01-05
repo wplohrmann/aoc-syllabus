@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import problems from '../data/problems.json';
-import Table from '../components/table'
+import Table from '../components/table';
+import styles from '../styles/Main.module.css';
 
 export type Problem = {
   Title: string;
@@ -32,14 +33,14 @@ export default function Problems() {
         } else {
           throw Error;
         }
-        return (ascending ? 1 : -1) * cmp;
+        return (ascending ? -1 : 1) * cmp;
     });
 
-    return <>
-        <p>
+    return <div className={styles.main}>
+        <p style={{textAlign: "center"}}>
             List of Advent of Code problems, filterable by title and sortable by each column
         </p>
-        <label>Filter: <input type="text" value={filterInput} onChange={(x) => setFilterInput(x.target.value)}/></label>
+        <label style={{textAlign: "center"}}>Filter: <input type="text" value={filterInput} onChange={(x) => setFilterInput(x.target.value)}/></label>
         <Table 
             headers={Object.keys(problems[0])}
             rowLink={problem => `https://adventofcode.com/${problem["Year"]}/day/${problem["Day"]}`}
@@ -54,5 +55,5 @@ export default function Problems() {
             rows={filtered}
             headerElement={key => <>{key} {sortKey===key ? (ascending ? <i className="down arrow"/> : <i className="up arrow"/>) : ""}</>}
         />
-    </>
+    </div>
 }
