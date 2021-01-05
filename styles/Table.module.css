@@ -1,9 +1,17 @@
 .table {
-    display:block;
-    /* overflow:scroll; */
     height:100%;
-    flex:1;
+    overflow:scroll;
 }
+.table th {
+    position:sticky;
+    top:0;
+    background:#0F0F23;
+}
+
+/* .tbody { */
+/*     flex-grow:1; */
+/*     overflow-y:scroll; */
+/* } */
 
 .button, .selected {
     background:none;

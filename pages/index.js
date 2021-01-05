@@ -12,10 +12,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <Title text="AoC Syllabus"/>
-    <Main>
-        <Problems/>
-    </Main>
-    <Footer url="https://nextjs.org" text="Powered by Next.js" />
+    <div style={{"display":"flex", "flexDirection":"column", "height":"100vh", "justifyContent":"center"}}>
+        <Title text="AoC Syllabus"/>
+        <Main>
+            <Problems/>
+        </Main>
+        <Footer url="https://nextjs.org" text="Powered by Next.js" />
+    </div>
   </>
 }

@@ -2,8 +2,8 @@ import styles from '../styles/Table.module.css';
 import classNames from 'classnames/bind'
 
 export default function Table(props) {
-        return <>
-        <table className={styles.table}>
+        return <div className={styles.table}>
+        <table>
             <thead><tr>
                     {props.headers.map(key =>
                         <th key={key} style={{"textAlign":"left"}} className={classNames(styles.highlightable, (props.sortKey===key ? styles.selected : styles.button))} onClick={props.onHeaderClick}>
@@ -11,7 +11,7 @@ export default function Table(props) {
                         </th>
                     )}
             </tr></thead>
-            <tbody style={{overflow:"scroll", height:"50vh"}}>
+            <tbody className={styles.tbody}>
                 {props.rows.map(problem => (
                     <tr key={problem.Title} className={styles.highlightable}>
                         {Object.keys(problem).map(key => <td className={styles.element}>
@@ -24,5 +24,5 @@ export default function Table(props) {
             </tbody>
         </table>
         {props.rows.length === 0 ? "No results" : ""}
-        </>
+        </div>
 }
